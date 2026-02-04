@@ -37,3 +37,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Bot configuration
+config.properties
+.env
