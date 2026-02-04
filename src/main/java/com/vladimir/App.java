@@ -5,8 +5,6 @@ import org.telegram.telegrambots.longpolling.TelegramBotsLongPollingApplication;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.meta.generics.TelegramClient;
 
-import java.security.cert.CertPath;
-
 public class App
 {
     public static void main( String[] args )
