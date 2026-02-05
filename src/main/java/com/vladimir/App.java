@@ -5,11 +5,12 @@ import org.telegram.telegrambots.longpolling.TelegramBotsLongPollingApplication;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.meta.generics.TelegramClient;
 
+import java.util.*;
+
 public class App
 {
     public static void main( String[] args )
     {
-
         Config config = new Config("config.properties");
         String botToken = config.getBotToken();
         try {
